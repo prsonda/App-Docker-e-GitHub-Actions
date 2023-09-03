@@ -731,7 +731,12 @@
     path-to-regexp "3.2.0"
     tslib "2.6.2"
 
-"@nestjs/platform-express@^10.0.0":
+"@nestjs/mapped-types@*":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-2.0.2.tgz#c8a090a8d22145b85ed977414c158534210f2e4f"
+  integrity sha512-V0izw6tWs6fTp9+KiiPUbGHWALy563Frn8X6Bm87ANLRuE46iuBMD5acKBDP5lKL/75QFvrzSJT7HkCbB0jTpg==
+
+"@nestjs/platform-express@^10.2.4":
   version "10.2.4"
   resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-10.2.4.tgz#1faf96b6828125d263dc70b9469761b41ee55dd5"
   integrity sha512-E9F6WYo6bNwvTT0saJpkr8t4BJLbZRwrX5EKbtBRQqyRcw6NAvlKdacKzoo+Sompdre0IbF8AvNRFk4uLZTWqA==
@@ -2328,7 +2333,7 @@ expect@^29.0.0, expect@^29.6.4:
     jest-message-util "^29.6.3"
     jest-util "^29.6.3"
 
-express@4.18.2:
+express@4.18.2, express@^4.18.2:
   version "4.18.2"
   resolved "https://registry.yarnpkg.com/express/-/express-4.18.2.tgz#3fabe08296e930c796c19e3c516979386ba9fd59"
   integrity sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ==
